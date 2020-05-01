@@ -1,0 +1,82 @@
+a {
+    color: #007bff;
+    font-size: 24px;
+}
+
+.navbar {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.nav-item a {
+    color: #000000;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-item a:hover {
+    color: #000000;
+    border-bottom: 1px solid;
+}
+
+.btn-warning{
+    background-color: rgba(87,202,255,1);
+    border-color: rgba(87,202,255,1);
+}
+
+.btn {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.callout-container {
+    height: 400px;
+
+    background: url('../images/heroimage1.png') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: 1px;
+    margin-right: 1px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
+
+.main-image{
+    height:400px;
+    width: 100%;
+    overflow:hidden;
+    position: relative;
+}
+
+.jumbotron {
+    background-color: rgba(87,202,255,.5);
+}
+
+.jumbotron h1 {
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
