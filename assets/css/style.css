@@ -167,11 +167,6 @@ a {
   color: #e84610;
 }
 
-.hvr-sweep-to-bottom:before {
-  background-color: rgba(0, 0, 0, 0.2);
-  height: 120px;
-}
-
 .overlay {
   position: absolute;
   border-radius: 5%;
@@ -204,4 +199,11 @@ a {
 
 .card {
     border-radius: 5%;
+    height: 300px;
+    border: none;
 }
+
+.stage-icon{
+    font-size: 40px;
+}
+    
