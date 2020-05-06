@@ -12,9 +12,12 @@
     />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
-      crossorigin="anonymous"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Leadership Goals</title>
@@ -168,7 +171,9 @@
         </div>
       </div>
       <!-- carousel -->
-      <div class="container-carousel">
+      <div
+        class="container-carousel containter-fluid container content-container"
+      >
         <div
           id="carouselExampleIndicators"
           class="carousel slide"
@@ -267,40 +272,82 @@
               </div>
             </div>
             <!-- third carousel item -->
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col">
-                  <div class="card-deck">
-                    <div class="card">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          This is a wider card with supporting text below as a
-                          natural lead-in to additional content. This card has
-                          even longer content than the first to show that equal
-                          height action.
-                        </p>
-                        <p class="card-text">
-                          <small class="text-muted"
-                            >Last updated 3 mins ago</small
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </a>
         </div>
-       <a class="carousel-control-prev" href="#carouselExampleIndicators" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
       </div>
     </section>
+    <!-- footer -->
+    <footer class="container-fluid container-wrapper-blue">
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <ul class="footer-item map list-unstyled">
+            <li>
+              <div style="width: 100%;">
+                <iframe
+                  width="100%"
+                  height="200"
+                  src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;coord=51.9014229, -8.468497&amp;q=22-23%20MacCurtain%20Street%2C%20Cork%20City+(Leadership%20Goals)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                  aria-label="Location Map"
+                  ><a href="https://www.maps.ie/draw-radius-circle-map/"
+                    >km radius map</a
+                  ></iframe
+                >
+              </div>
+              <br />
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul class="list-unstyled quick-links footer-item address">
+            <li>Leadership Goals</li>
+            <li>22 MacCurtain Street</li>
+            <li>Cork City</li>
+            <li>Ireland</li>
+            <li>021 -2578000</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul class="list-unstyled quick-links footer-item social">
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <!-- scripts -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

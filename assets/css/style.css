@@ -109,8 +109,7 @@ a {
 }
 
 .container-carousel {
-    padding: 40px;
-    padding-right: 40px;
+    padding-top: 20px;
 }
 
 .container-carousel .card-deck {
@@ -122,13 +121,42 @@ a {
     background-color: rgba(87,202,255,1);
 }
 
-.carousel-control-prev, .carousel-control-next, .carousel-control-next-icon, .carousel-control-prev-icon, .carousel-indicators {
+.carousel-control-next-icon, .carousel-control-prev-icon, .carousel-indicators {
     filter: invert(1);
-    color: #000000;
 }
-
-
 
 .card-deck {
     padding-bottom: 40px;
+}
+
+.carousel-data {
+    text-align: center;
+}
+
+.container-carousel {
+    background: url('../images/carousel-background.png') no-repeat center fixed;
+}
+ .carousel-control-prev:focus {
+   opacity: 0.5; /* this will remove the darker color on focus and hover */
+ }
+ .carousel-control-next:focus {
+   opacity: 0.5; /* this will remove the darker color on focus and hover */
+ }
+
+.footer-item {
+    padding-top: 10px;
+}
+
+.social i {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:10px;
+  font-size: 60px;
+  text-align: center;
+  color: #fafafa;
+  transition: all 0.35s ease-in-out;
+}
+
+.social li a i:hover {
+  color: #e84610;
 }
