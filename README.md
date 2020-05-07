@@ -1,28 +1,38 @@
 
 `python3 -m http.server`
 
-# Your Project's Name
+# Milestone Project 1 - Leadership Goals
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+This purpose of this project is to develop a website that promotes an educational leadership development programme. It is a business to business website as it targeted at companies that are interested in developing leaders in their organisation.
+The website will inform potential clients of the content of the programme, provide information about the company providing the course and give potential clients options for contacting Leadserhip Goals about the programme.
  
-## UX
+## User Experience
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This is a business to business website that provides potential clients with information on the content of the Leadership Goals development programme, the delivery location and the people that deliver the course.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+As a manager looking to educate my team, I am able to find out information about the Leadership Goals development programme I am able to quickly find out about the programme's content, where it is located and what are the benefits.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+As a potential student of the course, I am able to find out the benefits of the Leadership Goals to both myself and my organisation. I can find our if it is suitable for me and I can contact Leadership Goals quickly.
+
+As a human resource manager of a large company, I can find out information on the programme for the potential development of my company's management team, I can establish the benefits of the programme and I can find out potential study options for my team.
+
+**This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.**
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The project has a clear and simple layout. The header includes a bespoke company logo that I designed using Pixlr, navigation links that underline when hovered over and are bold when active. The navigation bar is responsive and compresses to a burger icon in mobile view with a drop down expansion that is centred.
+
+The main (hero) image on the homepage zooms in on load, the main title is located within a jumbotron that is layed over the main image.
+
+I used a card deck to highlight the stages of the programme on the homepage together with icons. The about us section was originally due to have its own page but it was decided that it would fit better on the homepage itself. This is now contained within a revolving carousel and includes information the company providing the programme including the team, the benefits of the programme and training faciltity.
+
+The footer contains information to help the user 
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
+
+
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
@@ -37,7 +47,10 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
-
+Bootstrap
+Fontawesome
+Google Fonts 
+JQuery
 
 ## Testing
 
