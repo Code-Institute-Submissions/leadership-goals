@@ -40,14 +40,13 @@ a {
 
 .callout-container {
     height: 400px;
-
     background: url('../images/heroimage1.png') no-repeat center fixed;
-    -webkit-background-size: cover;
+    -webkit-background-size: contain;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin-left: 1px;
-    margin-right: 1px;
+    margin-left: auto;
+    margin-right: auto;
     
     display: flex;
     align-items: center;
@@ -70,7 +69,7 @@ a {
 }
 
 .main-image{
-    height:400px;
+    height:auto;
     width: 100%;
     overflow:hidden;
     position: relative;
@@ -170,10 +169,6 @@ a {
 .overlay {
   position: absolute;
   border-radius: 5%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -190,6 +185,8 @@ a {
   font-size: 20px;
   position: absolute;
   text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -201,6 +198,7 @@ a {
     border-radius: 5%;
     height: 300px;
     border: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .stage-icon{
