@@ -368,8 +368,7 @@ a {
   height: auto;
   display: table-cell;
   align-content: center;
-  justify-items: center;
-  
+  justify-items: center; 
 }
 
 .history-heading,
@@ -386,6 +385,8 @@ a {
 
 .about-container {
   height: auto;
+  min-height: 220px;
+  padding: 30px;
 }
 
 .progress {
@@ -406,4 +407,15 @@ a {
 
 .progress-section {
   margin: 40px 20px;
+}
+
+
+.about-prog-icon{
+    font-size: 60px;
+    margin-bottom:10px;
+}
+
+.course-timetable {
+    padding-top: 30px;
+    background-color: #9b59b6;
 }
