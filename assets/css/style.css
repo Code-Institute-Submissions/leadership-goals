@@ -13,6 +13,11 @@ html {
   scroll-behavior: smooth;
 }
 
+h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
 /* Navbar */
 .navbar {
   padding-left: 40px;
@@ -36,7 +41,6 @@ html {
 .navbar-nav {
   text-align: center;
 }
-
 
 /* Buttons */
 .btn-warning {
@@ -86,12 +90,12 @@ html {
 }
 
 .jumbotron {
-  background-color: rgba(87, 202, 255, 0.5);
+  background-color: rgba(0, 136, 122, 0.5);
   max-width: 650px;
 }
 
 .jumbotron h1 {
-  color: #000000;
+  color: #ffffff;
   font-weight: bolder;
   margin-bottom: 10px;
   text-align: center;
@@ -121,7 +125,7 @@ html {
   padding-left: 10px;
 }
 
-/* Homepage Carousel */
+/*---------- Homepage Carousel------------ */
 
 .container-carousel {
 }
@@ -156,7 +160,7 @@ html {
   opacity: 0.5;
 }
 .carousel-control-next:focus {
-  opacity: 0.5; 
+  opacity: 0.5;
 }
 
 .footer-item {
@@ -200,7 +204,7 @@ html {
   padding-left: 10px;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
@@ -217,30 +221,29 @@ html {
   font-size: 40px;
 }
 
-.img-thumbnail {
-  margin-top: 0px;
+.mark-photo {
+  background: url(../images/businessman.jpg)no-repeat center center;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  margin: auto;
+}
+
+.aoife-photo {
+  background: url(../images/businesswoman.jpg)no-repeat center center;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  margin: auto;
 }
 
 .facility-photo {
   height: 150px;
   width: 200px;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  padding-top: 10px;
-  position: relative;
-}
-
-.team-photo {
-  max-height: 150px;
-  max-width: 150px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 15px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  margin: auto;
 }
 
 .carousel-inner .card {
@@ -301,19 +304,7 @@ html {
   position: relative;
 }
 
-/* About Programme Section */
-.stages-box {
-  border: 1px solid;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 2%;
-  min-height: 100px;
-  height: auto;
-  width: auto;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffffff;
-}
+/*--------------- About Programme Section ---------------*/
 
 .history-heading {
   color: #fafafa;
@@ -333,7 +324,7 @@ html {
 }
 
 .timeline-item h4 {
-    padding: 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -378,7 +369,7 @@ html {
   height: auto;
   display: table-cell;
   align-content: center;
-  justify-items: center; 
+  justify-items: center;
 }
 
 .history-heading,
@@ -419,15 +410,14 @@ html {
   margin: 40px 20px;
 }
 
-
-.about-prog-icon{
-    font-size: 60px;
-    margin-bottom:10px;
+.about-prog-icon {
+  font-size: 60px;
+  margin-bottom: 10px;
 }
 
 .course-timetable {
-    padding-top: 30px;
-    background-color: #00887A;
+  padding-top: 30px;
+  background-color: #00887a;
 }
 
 .contact-container {
@@ -452,14 +442,13 @@ html {
 }
 
 .form-control {
-    margin: 5px;
+  margin: 5px;
 }
 
 .gallery-img {
-    height: auto;
-    width: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    overflow: hidden;
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
 }
-
