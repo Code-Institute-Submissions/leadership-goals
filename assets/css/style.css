@@ -22,6 +22,8 @@ h1 {
 .navbar {
   padding-left: 40px;
   padding-right: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .nav-item a {
@@ -60,7 +62,7 @@ h1 {
   font-size: 20px;
 }
 
-/* Containers, Images and Backgrounds */
+/*---------------------------- Containers, Images and Backgrounds --------------------------*/
 
 .callout-container {
   height: 400px;
@@ -112,7 +114,7 @@ h1 {
   background-color: rgba(87, 202, 255, 1);
 }
 
-/* Homepage */
+/*-------------------- Homepage ------------------------------*/
 .page-header {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -164,13 +166,11 @@ h1 {
   padding-right:30px;
   border-radius: 0;
   height: 600px;
-  width: 400px;
+  width: 350px;
   border: none;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   text-overflow: ellipsis;
 }
-
-
 
 .mark-photo {
   background: url(../images/businessman.jpg)no-repeat center center;
@@ -199,7 +199,8 @@ h1 {
 
 
 .carousel-inner .card-title {
-  padding-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .carousel-inner .card-body {
