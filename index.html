@@ -130,12 +130,12 @@
           </div>
         </div>
       </div>
-      <!-- carousel -->
-      <div class="container-carousel containter-fluid container content-container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <!-- desktop view carousel -->
+      <div class="d-none d-lg-block container-carousel containter-fluid container content-container">
+        <div id="carouseldesktopIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouseldesktopIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouseldesktopIndicators" data-slide-to="1"></li>
           </ol>
           <div class="carousel-inner">
             <!-- first carousel item -->
@@ -237,13 +237,61 @@
                 </div>
               </div>
             </div>
-
-            <!-- end of carousel -->
+            <!-- end of desktop carousel -->
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" data-slide="prev">
+          <a class="carousel-control-prev" href="#carouseldesktopIndicators" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" data-slide="next">
+          <a class="carousel-control-next" href="#carouseldesktopIndicators" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+
+      <!----------- mobile and tablet view carousel ------------->
+      <div class="d-lg-none container-carousel containter-fluid container content-container">
+        <div id="carouselmobileIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselmobileIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#ccarouselmobileIndicators" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <!-- first carousel item -->
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="card-deck d-flex flex-column align-items-center justify-content-center">
+                  <div class="mobile-card">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <h2 class="text-center card-title">
+                              Our Team
+                            </h2>
+                            <div class="mark-photo img-thumbnail"></div>
+                            <div class="text-center card-title">
+                              <h3>Mark O' Brien</h3>
+                            </div>
+                            <p class="text-center">
+                              Mark is a graduate of University College Cork and specialises in the training and development of leaders in organisations throughout the world. Mark has a particular interest in the enhancment of couaching
+                              techniques to allow leaders to connect with their teams.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- second carousel item -->
+            
+            <!-- end of desktop carousel -->
+          </div>
+          <a class="carousel-control-prev" href="#carouselmobileIndicators" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#carouselmobileIndicators" data-slide="next">
             <span class="carousel-control-next-icon"></span>
           </a>
         </div>
