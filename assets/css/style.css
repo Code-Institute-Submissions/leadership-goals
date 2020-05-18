@@ -172,6 +172,16 @@ h1 {
   text-overflow: ellipsis;
 }
 
+/* Adjusts size of cards in the About Us carousel for mobile and tablet view */
+@media screen and (max-width: 768px) {
+    .mobile-card{
+        width: 320px;
+    }
+    .container-carousel .card-deck {
+        height: 850px;
+    }
+}
+
 .mark-photo {
   background: url(../images/businessman.jpg)no-repeat center center;
   background-size: cover;
