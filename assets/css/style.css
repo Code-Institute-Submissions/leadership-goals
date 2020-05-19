@@ -110,7 +110,7 @@ height: 400px;
 }
 
 .gallery-image {
-    background: url("../images/gallery-image7.jpg") no-repeat center fixed;
+    background: url("../images/cork-city.jpg") no-repeat center fixed;
   -webkit-background-size: contain;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -467,6 +467,7 @@ height: 400px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     margin-bottom: 40px; 
 }
+/*----------------------------------- Gallery-------------------------------------- */
 
 /* https://www.codecademy.com/forum_questions/542c44d4631fe94ba3000d4f */
 /* https://stackoverflow.com/questions/53466169/how-to-make-all-images-fit-same-size-inside-div-responsive */
@@ -493,3 +494,33 @@ height: 400px;
   margin-bottom: 20px;
 }
 
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+
+#gallery {
+  img {
+    height: 75vw;
+    object-fit: cover;
+    
+    @media (min-width: $bootstrap-sm) {
+      height: 35vw;
+    }
+    
+    @media (min-width: $bootstrap-lg) {
+      height: 18vw;
+    }
+  }
+
+
+.modal-body .carousel-item {
+  img {
+    height: 60vw;
+    object-fit: cover;
+    
+    @media (min-width: $bootstrap-sm) {
+      height: 350px;
+    }
+  }
+}
