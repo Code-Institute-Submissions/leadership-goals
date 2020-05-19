@@ -270,14 +270,14 @@ height: 400px;
 /*---------------------- Footer------------------ */
 
 .footer-item {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .social i {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
   color: #ffffff;
   transition: all 0.35s ease-in-out;
@@ -455,8 +455,6 @@ height: 400px;
   margin: 5px;
 }
 
-
-
 .map {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
@@ -464,7 +462,7 @@ height: 400px;
 /* https://www.codecademy.com/forum_questions/542c44d4631fe94ba3000d4f */
 /* https://stackoverflow.com/questions/53466169/how-to-make-all-images-fit-same-size-inside-div-responsive */
 .thumbnail img {
-     max-width: 100%;
+  max-width: 100%;
   max-height: auto;
   position: relative;
   vertical-align: middle;
