@@ -64,13 +64,16 @@ h1 {
 
 /*---------------------------- Containers, Images and Backgrounds --------------------------*/
 
-.callout-container {
-  height: 400px;
-  background: url("../images/heroimage1.png") no-repeat center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+.main-image {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-container {
+height: 400px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -82,6 +85,30 @@ h1 {
   animation-fill-mode: forwards;
 }
 
+.home-image {
+  background: url("../images/heroimage1.png") no-repeat center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.programme-image {
+    background: url("../images/programme-image.jpg") no-repeat center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact-image {
+    background: url("../images/contact-photo.jpg") no-repeat center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 @keyframes hero-zoom {
   from {
     transform: scale(1);
@@ -89,13 +116,6 @@ h1 {
   to {
     transform: scale(1.05);
   }
-}
-
-.main-image {
-  height: auto;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
 }
 
 .jumbotron {
@@ -311,45 +331,6 @@ h1 {
   font-size: 40px;
 }
 
-
-
-.programme-container {
-  height: 400px;
-  background: url("../images/programme-image.jpg") no-repeat center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin-left: auto;
-  margin-right: auto;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative;
-
-  animation-name: hero-zoom;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes hero-zoom {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.05);
-  }
-}
-
-.programme-image {
-  height: auto;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
 /*--------------- About Programme Section ---------------*/
 
 .history-heading {
@@ -468,27 +449,6 @@ h1 {
 .course-timetable {
   padding-top: 40px;
   background-color: #00887a;  
-}
-
-.contact-container {
-  height: 400px;
-  background: url("../images/contact-photo.jpg") no-repeat center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin-left: auto;
-  margin-right: auto;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative;
-
-  animation-name: hero-zoom;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
 }
 
 .form-control {
