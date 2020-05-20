@@ -78,13 +78,13 @@
           class="row align-items-center"
           id="gallery"
           data-toggle="modal"
-          data-target="#galleryModal"
+          data-target="#gallerymodal"
         >
           <div class="col-12 col-sm-6 col-lg-3 thumbnail gallery-img">
             <img
               class="w-100"
               src="assets/images/gallery-cover.jpg"
-              data-target="#carouselGallery"
+              data-target="#carouselgallery"
               data-slide-to="0"
             />
           </div>
@@ -92,7 +92,7 @@
             <img
               class="w-100"
               src="assets/images/gallery-image1.jpg"
-              data-target="#carouselGallery"
+              data-target="#carouselgallery"
               data-slide-to="1"
             />
           </div>
@@ -100,7 +100,7 @@
             <img
               class="w-100"
               src="assets/images/gallery-image2.jpg"
-              data-target="#carouselGallery"
+              data-target="#carouselgallery"
               data-slide-to="2"
             />
           </div>
@@ -108,7 +108,7 @@
             <img
               class="w-100"
               src="assets/images/gallery-image3.jpg"
-              data-target="#carouselGallery"
+              data-target="#carouselgallery"
               data-slide-to="3"
             />
           </div>
@@ -116,7 +116,7 @@
             <img
               class="w-100"
               src="assets/images/gallery-image4.jpg"
-              data-target="#carouselGallery"
+              data-target="#carouselgallery"
               data-slide-to="4"
             />
             </div>
@@ -124,7 +124,7 @@
             <img
               class="w-100"
               src="assets/images/gallery-image5.jpg"
-              data-target="#carouselGallery"
+              data-target="#carouselgallery"
               data-slide-to="5"
             />
             </div>
@@ -132,7 +132,7 @@
             <img
               class="w-100"
               src="assets/images/gallery-image6.jpg"
-              data-target="#carouselGallery"
+              data-target="#carouselgallery"
               data-slide-to="6"
             />
             </div>
@@ -140,16 +140,16 @@
             <img
               class="w-100"
               src="assets/images/gallery-image7.jpg"
-              data-target="#carouselGallery"
+              data-target="#carouselgallery"
               data-slide-to="7"
             />
             </div>
         </div>
-      <!-- Gallery Modal -->
+      <!-- Gallery Modal https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components -->
       <div class="container">
         <div
           class="modal fade"
-          id="galleryModal"
+          id="gallerymodal"
           tabindex="-1"
           role="dialog"
           aria-hidden="true"
@@ -163,13 +163,12 @@
                   data-dismiss="modal"
                   aria-label="Close"
                 >
-                  <span aria-hidden="true">×</span>
                 </button>
               </div>
 <!-- Gallery Modal Carousel -->
               <div class="modal-body">
                 <div
-                  id="carouselGallery"
+                  id="carouselgallery"
                   class="carousel slide"
                   data-ride="carousel"
                 >
@@ -179,53 +178,77 @@
                         class="d-block w-100"
                         src="assets/images/gallery-cover.jpg"
                       />
+                      <div class="carousel-caption d-none d-md-block">
+                      <h5>Cork City</h5>
+                      </div>
                     </div>
                     <div class="carousel-item">
                       <img
                         class="d-block w-100"
                         src="assets/images/gallery-image1.jpg"
                       />
+                      <div class="carousel-caption d-none d-md-block">
+                      <h5>Main Classroom</h5>
+                      </div>
                     </div>
                     <div class="carousel-item">
                       <img
                         class="d-block w-100"
                         src="assets/images/gallery-image2.jpg"
                       />
+                      <div class="carousel-caption d-none d-md-block">
+                      <h5>Breakout Room</h5>
+                      </div>
                     </div>
                     <div class="carousel-item">
                       <img
                         class="d-block w-100"
                         src="assets/images/gallery-image3.jpg"
                       />
+                      <div class="carousel-caption d-none d-md-block">
+                      <h5>Boardroom</h5>
+                      </div>
                     </div>
                      <div class="carousel-item">
                       <img
                         class="d-block w-100"
                         src="assets/images/gallery-image4.jpg"
                       />
+                      <div class="carousel-caption d-none d-md-block">
+                      <h5>Centre Cafe</h5>
+                      </div>
                     </div>
                      <div class="carousel-item">
                       <img
                         class="d-block w-100"
                         src="assets/images/gallery-image5.jpg"
                       />
+                      <div class="carousel-caption d-none d-md-block">
+                      <h5>Centre Cafe</h5>
+                      </div>
                     </div>
                      <div class="carousel-item">
                       <img
                         class="d-block w-100"
                         src="assets/images/gallery-image6.jpg"
                       />
+                      <div class="carousel-caption d-none d-md-block">
+                      <h5>Demonstration Room</h5>
+                      </div>
                     </div>
                      <div class="carousel-item">
                       <img
                         class="d-block w-100"
                         src="assets/images/gallery-image7.jpg"
                       />
+                      <div class="carousel-caption d-none d-md-block">
+                      <h5>River Lee, Cork City</h5>
+                      </div>
                     </div>
                   </div>
                   <a
                     class="carousel-control-prev"
-                    href="#carouselGallery"
+                    href="#carouselgallery"
                     role="button"
                     data-slide="prev"
                   >
@@ -237,7 +260,7 @@
                   </a>
                   <a
                     class="carousel-control-next"
-                    href="#carouselGallery"
+                    href="#carouselgallery"
                     role="button"
                     data-slide="next"
                   >

@@ -52,8 +52,8 @@ h1 {
 }
 
 .btn-warning:hover {
-    background-color:  #ffccbc;
-    border-color: #ffccbc;
+    background-color:  rgba(0, 136, 122, 0.5);
+    border-color: rgba(0, 136, 122, 0.5);
     border-bottom: transparent;
 }
 
@@ -292,7 +292,7 @@ height: 400px;
 }
 
 .social li a i:hover {
-  color: #e84610;
+  color: rgba(0, 136, 122, 0.5);
 }
 
 .social-links {
@@ -341,7 +341,7 @@ height: 400px;
 
 /*--------------- About Programme Section ---------------*/
 
-.history-heading {
+.timetable-heading {
   color: #fafafa;
   margin-bottom: 0px;
 }
@@ -387,7 +387,7 @@ height: 400px;
   background: #fafafa;
 }
 
-.history-items {
+.timetable-items {
   margin-top: 0px;
   margin-bottom: 0;
   padding-top: 0em;
@@ -494,33 +494,13 @@ height: 400px;
   margin-bottom: 20px;
 }
 
-$bootstrap-sm: 576px;
-$bootstrap-md: 768px;
-$bootstrap-lg: 992px;
-$bootstrap-xl: 1200px;
+.btn-primary {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-color: #ffffff !important;
+}
 
-#gallery {
-  img {
-    height: 75vw;
-    object-fit: cover;
-    
-    @media (min-width: $bootstrap-sm) {
-      height: 35vw;
-    }
-    
-    @media (min-width: $bootstrap-lg) {
-      height: 18vw;
-    }
-  }
-
-
-.modal-body .carousel-item {
-  img {
-    height: 60vw;
-    object-fit: cover;
-    
-    @media (min-width: $bootstrap-sm) {
-      height: 350px;
-    }
-  }
+.btn-primary:hover {
+    background-color: rgba(0, 136, 122, 1) !important;
+    border-color: rgba(0, 136, 122, 1) !important;
 }
