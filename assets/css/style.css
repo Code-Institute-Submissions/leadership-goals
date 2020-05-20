@@ -127,6 +127,7 @@ height: 400px;
 }
 
 .jumbotron {
+    margin-top: 30px;
   background-color: rgba(0, 136, 122, 0.5);
   max-width: 650px;
 }
@@ -208,7 +209,11 @@ height: 400px;
     .container-carousel .card-deck {
         height: 850px;
     }
+    .progress-type {
+        font-size: 8px;
+    }
 }
+
 
 .mark-photo {
   background: url(../images/businessman.jpg)no-repeat center center;
@@ -464,7 +469,7 @@ height: 400px;
 }
 
 .map {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     margin-bottom: 40px; 
 }
 /*----------------------------------- Gallery-------------------------------------- */
@@ -481,6 +486,9 @@ height: 400px;
   height: 200px;
   width: 200px;
   object-fit:cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .thumbnail {
@@ -490,8 +498,7 @@ height: 400px;
   overflow: hidden;
   position: relative;
   display: inline-block;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  
 }
 
 .btn-primary {
@@ -503,4 +510,12 @@ height: 400px;
 .btn-primary:hover {
     background-color: rgba(0, 136, 122, 1) !important;
     border-color: rgba(0, 136, 122, 1) !important;
+}
+
+.bg-teal {
+    background-color: rgba(0, 136, 122, .5);
+}
+
+.bg-blue {
+    background-color: rgba(87, 202, 255, 1);
 }
