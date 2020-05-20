@@ -1,5 +1,6 @@
 python3 -m http.server
 
+![Leadership Goals Logo](assets/images/leadership-goals-logo.png)
 
 # Milestone Project 1 - Leadership Goals
 
@@ -82,7 +83,15 @@ I used the following languages for the project:
 
 ### Frameworks 
 - **[BootStrap 4](https://getbootstrap.com/)**
-  - I used the **Bootstrap 4** Framework to design the website and add useful components and utilities.
+  - I used the **Bootstrap 4** Framework to design the website and add useful components and utilities including:
+    - [Carousels]
+    - [Modals]
+    - [Flexbox]
+    - [Jumbotrons]
+    - [Cards]
+    - [Images]
+    - [Navbar]
+
   - Within the Bootstrap 4 framework, the following libraries were used to add functionality to components:
 
 ### Libraries
