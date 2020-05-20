@@ -70,9 +70,9 @@ Below the hero image on the gallery page are eight images that relate to the Lea
 ### Features Left to Implement
 - Another feature idea
 
-## Technologies Used
+## 3. Technologies Used
 
-### Languages 
+### 3.1 Languages 
 
 I used the following languages for the project:
 - **[HTML/HTML5](https://en.wikipedia.org/wiki/HTML5)**
@@ -81,31 +81,44 @@ I used the following languages for the project:
 - **[CSS/CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)** 
   - The project used **CSS/CSS3** to provide the styles for the website.
 
-### Frameworks 
+### 3.2 Frameworks 
 - **[BootStrap 4](https://getbootstrap.com/)**
   - I used the **Bootstrap 4** Framework to design the website and add useful components and utilities including:
-    - [Carousels]
-    - [Modals]
-    - [Flexbox]
-    - [Jumbotrons]
-    - [Cards]
-    - [Images]
-    - [Navbar]
+    - [Carousels](https://getbootstrap.com/docs/4.5/components/carousel/)
+    - [Modals](https://getbootstrap.com/docs/4.5/components/modal/)
+    - [Flexbox](https://getbootstrap.com/docs/4.5/utilities/flex/)
+    - [Jumbotrons](https://getbootstrap.com/docs/4.5/components/jumbotron/)
+    - [Cards](https://getbootstrap.com/docs/4.5/components/card/)
+    - [Images](https://getbootstrap.com/docs/4.5/content/images/)
+    - [Navbar](https://getbootstrap.com/docs/4.5/components/navbar/)
 
   - Within the Bootstrap 4 framework, the following libraries were used to add functionality to components:
 
-### Libraries
+### 3.3 Libraries
 
-- **[JQuery](https://jquery.com)** and **[Popper](https://popper.js.org/)**
+- **[JQuery](https://jquery.com)**
     - The project uses **JQuery** to add functionality to Bootstrap's components including Modals and Forms
 
 - **[Fontawesome](https://fontawesome.com/)**
     - The project uses **Fontawesome** to add attractive icons to each of the project's pages.
 
-- **[Google Fonts]()
-JQuery
+- **[Google Fonts](https://fonts.google.com/)**
+    - The Quicksand Font from Google Fonts is used throughout the project in different weights and colours.
 
-## Testing
+### 3.4 IDE
+
+- **[GitPod](https://www.gitpod.io/)**
+    - Gitpod was used to develop the website and test each element before deployment.
+
+### 3.5 External Hosting
+
+- **[GitHub](https://github.com/)**
+    - This project uses the GitHub hosting service and is saved in a GitHub repositorty.
+
+- **[Google Drive](ttps://drive.google.com/)**
+    - The wireframe PDF files are saved to a Google Drive account and are accessibble by anyone.
+
+## 4. Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
