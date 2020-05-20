@@ -2,11 +2,13 @@ python3 -m http.server
 
 ![Leadership Goals Logo](assets/images/leadership-goals-logo.png)
 
+![Leadership Goals Mockup](assets/mockups/mockup.png)
+
 # Milestone Project 1 - Leadership Goals
 
 This purpose of this project is to develop a website that promotes an educational leadership development programme. It is a business to business website as it targeted at companies that are interested in developing leaders in their organisation.
 The website will inform potential clients of the content of the programme, provide information about the company providing the course and give potential clients options for contacting Leadserhip Goals about the programme.
----
+
 ##Index
 
 ## 1. User Experience
@@ -120,7 +122,26 @@ I used the following languages for the project:
 
 ## 4. Testing
 
-![Leadership Goals Mockup](assets/mockups/mockup.png)
+### 4.1 Testing Technologies
+
+- **[Balsamiq](https://balsamiq.com/)**
+    - I used Balsamiq to design the original wireframes for to project and test how the layout looked. I reverted to Balsamiq when considering changes in the websites design.
+
+- **[GTMetrix](https://gtmetrix.com/)**
+    - GTMetrix was used to test each pages loading speeds and to find out if any elementes were creating long loading times.
+
+- **[W3C HTML Validator](https://validator.w3.org/)**
+    - The W3C HTML Validator checked the website for any HTML validity errors.
+
+- **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)**
+    - The CSS Validator checked for any validity errors in the website's CSS page.
+
+- **[Autoprefixer CSS Online](https://autoprefixer.github.io/)**
+    - The Autoprefixer ensured that vendor prefixes were added to my CSS.
+
+
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
