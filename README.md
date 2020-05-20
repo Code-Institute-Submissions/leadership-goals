@@ -1,5 +1,3 @@
-python3 -m http.server
-
 ![Leadership Goals Logo](assets/images/leadership-goals-logo.png)
 
 ![Leadership Goals Mockup](assets/mockups/mockup.png)
@@ -9,7 +7,6 @@ python3 -m http.server
 The purpose of this project is to develop a website that promotes a fictional educational leadership development programme, Leadership Goals. It is a business to business website as it targeted at companies that are interested in developing leaders in their organisation.
 The website will inform potential clients of the content of the programme, provide information about the company providing the course and give potential clients options for contacting Leadserhip Goals about the programme.
 
-##Index
 
 ## 1. User Experience
  
@@ -41,6 +38,7 @@ The wireframe mockups gave me a basic idea of how best to lay out each individua
 
 ### 1.6 Surface
 A blue and white colour scheme was initially decided upon to give a clean and crisp image to the site, I decided to add a teal colour, particularly for buttons and hover elemenets early on in the project. I chose the Quicksand font from Google Fonts as it fit in with my intended design. A mixture of rounded borders and angled borders as well as shadowing appear on different elements throughout the site in order to add visual appeal
+***
 
 ## 2. Features
 
@@ -71,6 +69,7 @@ Below the hero image on the gallery page are eight images that relate to the Lea
 
 ### 2.6 Features Left to Implement
 - I would like to add swipe functionality to the carousels on mobile devices. This is outside the scope of the project at this time and requires a knowledge of JavaScript.
+***
 
 ## 3. Technologies Used
 
@@ -119,6 +118,7 @@ I used the following languages for the project:
 
 - **[Google Drive](ttps://drive.google.com/)**
     - The wireframe PDF files are saved to a Google Drive account and are accessibble by anyone.
+***
 
 ## 4. Testing
 
@@ -193,7 +193,7 @@ I encountered the following bugs while developing the Leadership Goals website:
 
 ### General Responsiveness
 - I found some of the responsive elements challenging however with persistence and common sense I was able to adjust elements to be attractive and repsonsive at different screen sizes.
-
+***
 
 ## 5. Deployment
 
@@ -204,7 +204,7 @@ The Leadership Goals project is hosted on GitHub Pages and was developed using t
 3. All development on the project was carried out on the GitPod IDE.
 4. Changes to the project were committed and pushed regularly from GitPod to the Github repositorty.
 5. The Master Branch was the sole branch used to edit the project and the GitHub pages website was created from this branch. A link to the site is available **[here](https://d-mcalpin.github.io/leadership-goals/)**.
-
+***
 
 ## 6. Credits
 
@@ -237,12 +237,18 @@ The following sources were used for code snippets or inspiration throughout the 
     - The alignment and positioning of the image gallery was inspired by the following from [codeacademy](codecademy.com/forum_questions/542c44d4631fe94ba3000d4f)
 
 - **Timeline and Progress Bar**
-    - The timeline and progress bar on the Programme page were inspired by the Resume Project in the Code Institute's USer Centric Frontend module. 
+    - The timeline and progress bar on the Programme page were inspired by the Resume Project in the Code Institute's User Centric Frontend module. 
 
 ### 6.2 Media
 - **Map**
+    - The map for the Contact Page was sourced and copied from [Maps.ie](https://www.maps.ie/)
 - **Images**
+    - The Leadership Goals Lion Icon was sourced on [freepik.com](https://www.freepik.com/) and edited on [pixlr](https://pixlr.com/)
+    - All images for backgrounds, thumbnails and galleries were free to use and sourced from [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/)
+
 
 ### 6.3 Acknowledgements
 
-- I received inspiration for this project from X
+- **Oluwafemi Medale** (My Mentor) - Thank you for your assistance with this project.
+- **The Code Institute Slack Community** - This was a great source of inspiration and assistance throughout the project.
+***
