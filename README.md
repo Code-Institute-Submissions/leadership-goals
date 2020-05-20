@@ -30,33 +30,41 @@ Based on the Scope Plane and what information I believe clients requires to gain
 
 ### 1.5 Skeleton
 A mobile first approach was taken to designing the website. The original wireframes were created using Balsamiq and can be found below:
+
 - Mobile Wireframe PDF - <a href="https://drive.google.com/open?id=1YlXsu0rpGjufktC9YRjwdl1xh5CpGf3b" rel="noopener" target="_blank">mobile version in PDF</a>.
 - Desktop Wireframe PDF - <a href="https://drive.google.com/open?id=1m7k7kfxnNo0fE5WSwvlbawXyvaR5dZ8X" rel="noopener" target="_blank">desktop version in PDF</a>.
-## Features
 
-### All Pages
-The project has a clear and simple layout. The header includes a bespoke company logo that I designed using Pixlr, navigation links that underline when hovered over and are bold when active. The navigation bar is responsive and compresses to a burger icon in mobile view with a drop down expansion that is centred.
+The wireframe mockups gave me a basic idea of how best to lay out each individual element that I wanted to incorporate into the project and how that would impact and enhance the user experience. As the project progressed the best placement of these elements became apparent.
+
+### 1.6 Surface
+A blue and white colour scheme was initially decided upon to give a clean and crisp image to the site, I decided to add a teal colour, particularly for buttons and hover elemenets early on in the project. I chose the Quicksand font from Google Fonts as it fit in with the my design. A mixture of rounded borders and angled borders as well as shadowing appear on different elements throughout the site in order to add visual appeal
+
+## 2. Features
+
+### 2.1 All Pages
+The project has a clear and simple layout. The header includes a bespoke company logo that I designed using Pixlr and navigation links that underline when hovered over and are bold when active. The navigation bar is responsive and the navigation links compress to a burger icon in mobile view with a drop down expansion that is centred.
 
 The main (hero) image on each zooms in on loading, the main title is located within a jumbotron that is layed over the main image.
 
 The footer contains information to help the user contact and locate the company. On desktop view, the footer is split into three columns. The first column contains the companies contact details including address and phone number. The centre column contains the commpany's logo, this is not visible on mobile view. The right side column contains the company's social media links. These are fontaweosome icons and they change colour when hovered over. The appear at the bottom of the page on mobile view.
 
-### Homepage
-I used a card deck to highlight the stages of the programme on the homepage together with icons and text. Each card in the card deck has a hover over effect that shows more information about each stage of the programme in a fade transition on each card. This allows users to get a quick introduction to the programme on the first page of the website before deciding to learn more in The Programme Page.
+### 2.2 Homepage
+I used a card deck to highlight the stages of the programme on the homepage together with icons and text. Each card in the card deck has a hover overlay effect that shows more information about each stage of the programme in a fade transition on each card. This allows users to get a quick introduction to the programme on the first page of the website before deciding to learn more in The Programme Page.
 
-The about us section was originally due to have its own page but it was decided that it would fit better on the homepage itself. This is now contained within a revolving carousel and includes information the company providing the programme including two cards describing the team, one card on the training faciltity and one card the company's promise/mission. The carousel contains four cards ontained on two slides. In mobile and tablet view these cards become stacked instead of in line on the slides. This section allows users to get a better understanding of the company behind The Leadership Goals Programme through text and images.
+The about us section was originally due to have its own page but it was decided that it would fit better on the homepage itself. This is now contained within a revolving carousel and includes information the company providing the programme including two cards describing the team, one card on the training faciltity and one card the company's promisen. The carousel contains four cards on two slides in desktop view. In mobile and tablet view one card per slide is visible, this was achieved through the addition of a second mobile and tablet view only carousel. This section allows users to get a better understanding of the company behind The Leadership Goals Programme through text and images.
 
-### Programme Page
+### 2.3 Programme Page
 The purpose of the programme page is to give users a greater understanding of the Leadership Goals programme. Below the hero image, I have included a programme schedule on the left column inspired by The Code Institute's resume project. The other two columns include three rows that give an outline and further information on the three stages of the programme that are styled with the projexts colour scheme and include icons from Fontawesome.
 
 The Course Fees section of the programme page gives a brief outline of the courses fee schedule using a Bootstrap Progress Bar that is seperated into three sections. Individual course fees are not provided here but users are encouraged to contact the company using a button in this section that links to the contact form.
 
-### Contact Page
+### 2.4 Contact Page
 The contact page provides users with a contact form below the hero images that encourages contact with the Leadership Goals Company to find our more information about the programme. The form contains required fields and pop up modal when the Send button is clicked.
 
 A large interactive and responsive map is located below the contact form. The map at this size provides users with a link to get directions to the Leadership Goals Centre of Excellence through Google Maps. The map also allows users toggle between satelite and map view as well as zoom in and out.
 
-Below the map is a small gallery that contains images of the Leadership Goals Centre of Excellence. Each image opens a modal with a gallery carousel when clicked.
+### 2.5 Gallery Page
+Below the hero image on the gallery page are eight images that relate to the Leadership Goals Centre of Excellence. The images are designed to be all of the same size and each image opens a modal with a gallery carousel when clicked. A brief description of each image is located on each slide of the carousel.
 
 ### Features Left to Implement
 - Another feature idea
