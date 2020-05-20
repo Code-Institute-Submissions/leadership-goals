@@ -6,7 +6,7 @@ python3 -m http.server
 
 # Milestone Project 1 - Leadership Goals
 
-The purpose of this project is to develop a website that promotes an educational leadership development programme. It is a business to business website as it targeted at companies that are interested in developing leaders in their organisation.
+The purpose of this project is to develop a website that promotes a fictional educational leadership development programme, Leadership Goals. It is a business to business website as it targeted at companies that are interested in developing leaders in their organisation.
 The website will inform potential clients of the content of the programme, provide information about the company providing the course and give potential clients options for contacting Leadserhip Goals about the programme.
 
 ##Index
@@ -69,8 +69,8 @@ A large interactive and responsive map is located below the contact form. The ma
 ### 2.5 Gallery Page
 Below the hero image on the gallery page are eight images that relate to the Leadership Goals Centre of Excellence. The images are designed to be all of the same size and each image opens a modal with a gallery carousel when clicked. A brief description of each image is located on each slide of the carousel.
 
-### Features Left to Implement
-- Another feature idea
+### 2.6 Features Left to Implement
+- I would like to add swipe functionality to the carousels on mobile devices. This is outside the scope of the project at this time and requires a knowledge of JavaScript.
 
 ## 3. Technologies Used
 
@@ -152,7 +152,7 @@ I used the following languages for the project:
 
 
 2. As a potential student of the course:
-    -  I can find out basic information about what the course offers, who runs the course and where it is located from the homepage.
+    - I can find out basic information about what the course offers, who runs the course and where it is located from the homepage.
     - I can view pictures of the facility that I will be studying in in the gallery.
     - I can contact the company to learn more about the course from the contact page as well as view further information about the location on a map.
 
@@ -173,7 +173,7 @@ I used the following languages for the project:
 
 I utilised Google Chrome's DevTools to test the responsivness of the website at different screen sizes throughout the project. Once the project was approximately 70% complete, I tested it using a Huawei P9 Lite mobile device and an Acer tablet device. The website worked well on both devices.
 
-#### On screensizes of tablet size and below:
+#### On screen sizes of tablet size and below:
 - The Leadership Goals logo will only display the image and no text and the navbar will compress into a burger icon with a dropdown effect when pressed. 
 - The two card carousel will be replaced with a single card carousel on the homepage.
 - Cards and divs are responsive and will align with the mobile view. 
@@ -197,27 +197,52 @@ I encountered the following bugs while developing the Leadership Goals website:
 
 ## 5. Deployment
 
-The Leadership Goals projectt is hosted on GitHub and was developed using the GitPod IDE.
+The Leadership Goals project is hosted on GitHub Pages and was developed using the GitPod IDE using the following steps:
+
+1. An initial repository was created in my GitHub account for the Leadership Goals Project.
+2. Using the GitPod Chrome extension, the project was launched from the GitHub repository.
+3. All development on the project was carried out on the GitPod IDE.
+4. Changes to the project were committed and pushed regularly from GitPod to the Github repositorty.
+5. The Master Branch was the sole branch used to edit the project and the GitHub pages website was created from this branch. A link to the site is available **[here](https://d-mcalpin.github.io/leadership-goals/)**.
 
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+## 6. Credits
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+### 6.1 Content
+The design and style of my project was inspired by elements of the following Milestone 1 projects:
+- [Startup Academy ](https://github.com/betahope/ms1-startup-academy)
+- [EL1TE](https://github.com/D1ang/EL1TE)
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The following sources were used for code snippets or inspiration throughout the project:
+- **All Pages**
+    - The navbar was developed from Bootstrap 4's navbar documentation.
+    - The hero image and jumbotron were inspired by the Love Running project of the Code Institute Full Stack Web Developer Course.
+    - The card deck and cards were developed from Bootstrap 4's card documentation.
+    - The overlay for the course stages cards was inspired by the following :
+        - [Stackoverflow Overlays](https://stackoverflow.com/questions/55194719/how-can-i-make-hover-overlay-text-fixed-to-an-image)
+        - [W3Schools Overlays](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
+    - Box shadow effects were inspired by the following from [W3Schools](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp).
 
+- **Carousels**
+    - The homepage carousel for the About Us section was designed using cards and carousels from Bootstrap 4's documentation and the following:
+        - [Stackoverflow Carousel of Cards](https://stackoverflow.com/questions/46736141/carousel-of-cards)
+        - [Stackoverflow Navigation Elements](https://stackoverflow.com/questions/20577842/bootstrap-carousel-controls-located-incorrectly)
+        - [Stackoverflow Carousel Arrows](https://stackoverflow.com/questions/46944313/bootstrap-4-beta-carousel-arrows-outside-slider-area)
+        - [Stackoverflow Card Word Wrapping](https://stackoverflow.com/questions/42232954/bootstrap-4-word-wrapping-in-cards)
+        - [Stackoverflow Captions for Bootstrap Carousels](https://stackoverflow.com/questions/47176632/bootstrap-carousel-caption)
 
-## Credits
+- **Images and Gallery**
+    - The thumbnail style images on the homepage carousel were inspired by Bootstrap 4's documentation on Thumbnail Images
+    - The gallery modal and carousel was inspired by the following from [CSS Tricks](https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/)
+    - The alignment and positioning of the image gallery was inspired by the following from [codeacademy](codecademy.com/forum_questions/542c44d4631fe94ba3000d4f)
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- **Timeline and Progress Bar**
+    - The timeline and progress bar on the Programme page were inspired by the Resume Project in the Code Institute's USer Centric Frontend module. 
 
-### Media
-- The photos used in this site were obtained from ...
+### 6.2 Media
+- **Map**
+- **Images**
 
-### Acknowledgements
+### 6.3 Acknowledgements
 
 - I received inspiration for this project from X
