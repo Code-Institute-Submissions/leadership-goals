@@ -1,31 +1,41 @@
 python3 -m http.server
-``
+
 
 # Milestone Project 1 - Leadership Goals
 
 This purpose of this project is to develop a website that promotes an educational leadership development programme. It is a business to business website as it targeted at companies that are interested in developing leaders in their organisation.
 The website will inform potential clients of the content of the programme, provide information about the company providing the course and give potential clients options for contacting Leadserhip Goals about the programme.
- 
-## User Experience
+---
+##Index
+
+## 1. User Experience
  
 This is a business to business website that provides potential clients with information on the content of the Leadership Goals development programme, the delivery location and the people that deliver the course.
 
-As a manager looking to educate my team, I am able to find out information about the Leadership Goals development programme I am able to quickly find out about the programme's content, where it is located and what are the benefits.
+### 1.1 User Stories
+- As a manager looking to educate my team, I am able to find out information about the Leadership Goals development programme I am able to quickly find out about the programme's content, where it is located and what are the benefits.
 
-As a potential student of the course, I am able to find out the benefits of the Leadership Goals Programme to both myself and my organisation. I can find our if it is suitable for me and I can contact Leadership Goals quickly.
+- As a potential student of the course, I am able to find out the benefits of the Leadership Goals Programme to both myself and my organisation. I can find our if it is suitable for me and I can contact Leadership Goals quickly.
 
-As a human resource manager of a large company, I can find out information on the programme for the potential development of my company's management team, I can establish the benefits of the programme and I can find out potential study options for my team.
+- As a human resource manager of a large company, I can find out information on the programme for the potential development of my company's management team, I can establish the benefits of the programme and I can find out potential study options for my team.
 
-**This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.**
+### 1.2 Strategy
+The goal of the project is to create an informative business to business website that showcases the Leadership Goals Programme and encourages potential clients to get in contact with the company. The website acts as an attractive window for clients to gain a basic understanding of the programme and entice them to find out more information.
 
+### 1.3 Scope 
+The website intends to anticipates what information clients would lime to know. With this in mind, introductory information is contained within the landing page and further details such as fees, gallery images and a contact form is available within a click.
+
+### 1.4 
+Mobile Wireframe PDF -https://drive.google.com/open?id=1YlXsu0rpGjufktC9YRjwdl1xh5CpGf3b
+Desktop Wireframe PDF - https://drive.google.com/open?id=1m7k7kfxnNo0fE5WSwvlbawXyvaR5dZ8X
 ## Features
 
 ### All Pages
 The project has a clear and simple layout. The header includes a bespoke company logo that I designed using Pixlr, navigation links that underline when hovered over and are bold when active. The navigation bar is responsive and compresses to a burger icon in mobile view with a drop down expansion that is centred.
 
-The main (hero) image on the homepage zooms in on loading, the main title is located within a jumbotron that is layed over the main image.
+The main (hero) image on each zooms in on loading, the main title is located within a jumbotron that is layed over the main image.
 
-The footer contains information to help the user contact and locate the company. On desktop view, the footer is split into three columns. The first column contains an interacive map which shows the location of The LEadership Goals Centre of Excellence and allows users to get directions in an expanded view through Google Maps. The map does not appear on mobile view. The centre column contains the commpany's address and contact telephone number. This remains centred on mobile view. The right side column contains the company's social media links. These are fontaweosome icons and they change colour when hovered over. The appear at the bottom of the page on mobile view.
+The footer contains information to help the user contact and locate the company. On desktop view, the footer is split into three columns. The first column contains the companies contact details including address and phone number. The centre column contains the commpany's logo, this is not visible on mobile view. The right side column contains the company's social media links. These are fontaweosome icons and they change colour when hovered over. The appear at the bottom of the page on mobile view.
 
 ### Homepage
 I used a card deck to highlight the stages of the programme on the homepage together with icons and text. Each card in the card deck has a hover over effect that shows more information about each stage of the programme in a fade transition on each card. This allows users to get a quick introduction to the programme on the first page of the website before deciding to learn more in The Programme Page.
