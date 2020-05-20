@@ -4,10 +4,6 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-a {
-  color: #007bff;
-  font-size: 24px;
-}
 
 html {
   scroll-behavior: smooth;
@@ -18,12 +14,17 @@ h1 {
     font-weight: 700;
 }
 
-/* Navbar */
+/*---------------------------------------- Navbar --------------------------------------*/
 .navbar {
   padding-left: 20px;
   padding-right: 40px;
   padding-top: 0px;
   padding-bottom: 15px;
+}
+
+.navbar-nav a {
+  color: #000000;
+  font-size: 24px;
 }
 
 .nav-item a {
@@ -62,6 +63,17 @@ h1 {
   font-size: 20px;
 }
 
+.btn-primary {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-color: #ffffff !important;
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 136, 122, 1) !important;
+    border-color: rgba(0, 136, 122, 1) !important;
+}
+
 /*---------------------------- Containers, Images and Backgrounds --------------------------*/
 
 
@@ -76,54 +88,42 @@ h1 {
 height: 400px;
   margin-left: auto;
   margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
-  animation-name: hero-zoom;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
+  -webkit-animation-name: hero-zoom;
+          animation-name: hero-zoom;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .home-image {
   background: url("../images/heroimage1.png") no-repeat center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
 .programme-image {
     background: url("../images/programme-image.jpg") no-repeat center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
 .contact-image {
     background: url("../images/contact-photo.jpg") no-repeat center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
 .gallery-image {
     background: url("../images/cork-city.jpg") no-repeat center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-}
-
-@keyframes hero-zoom {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.05);
-  }
 }
 
 .jumbotron {
@@ -143,7 +143,58 @@ height: 400px;
   background-color: rgba(87, 202, 255, 1);
 }
 
-/*-------------------- Homepage ------------------------------*/
+.mark-photo {
+  background: url(../images/businessman.jpg)no-repeat center center;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+.aoife-photo {
+  background: url(../images/businesswoman.jpg)no-repeat center center;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+.facility-photo {
+  height: 150px;
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+@-webkit-keyframes hero-zoom {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+@keyframes hero-zoom {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+/*----------------------------------------- Homepage ---------------------------------*/
 .page-header {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -168,148 +219,14 @@ height: 400px;
   padding-left: 10px;
 }
 
-/*---------- Homepage Carousel------------ */
-
-.container-carousel .card-deck {
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 0px;
-  padding-top: 0px;
-  height: 700px;
-}
-
-.container-carousel .card {
-  background-color: rgba(87, 202, 255, 1);
-  margin-top:0px;
-  padding-top: 0px;
-  border-radius: 0;
-  height: 600px;
-  min-width: 400px;
-  border: none;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
-
-.mobile-card {
-    background-color: rgba(87, 202, 255, 1);
-  padding-left: 30px;
-  padding-right:30px;
-  border-radius: 0;
-  height: 800px;
-  width: 350px;
-  border: none;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  text-overflow: ellipsis;
-}
-
-/* Adjusts size of cards in the About Us carousel for mobile and tablet view */
-@media screen and (max-width: 768px) {
-    .mobile-card{
-        width: 320px;
-    }
-    .container-carousel .card-deck {
-        height: 850px;
-    }
-    .progress-type {
-        font-size: 8px;
-    }
-}
-
-
-.mark-photo {
-  background: url(../images/businessman.jpg)no-repeat center center;
-  background-size: cover;
-  height: 200px;
-  width: 200px;
-  display: flex;
-  margin: auto;
-}
-
-.aoife-photo {
-  background: url(../images/businesswoman.jpg)no-repeat center center;
-  background-size: cover;
-  height: 200px;
-  width: 200px;
-  display: flex;
-  margin: auto;
-}
-
-.facility-photo {
-  height: 150px;
-  width: 200px;
-  display: block;
-  margin: auto;
-}
-
-
-.carousel-inner .card-title {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.carousel-inner .card-body {
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
-.carousel-inner .card-text {
-  text-align: center;
-}
-
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon,
-.carousel-indicators {
-  filter: invert(1);
-}
-
-.card-deck {
-  padding-bottom: 40px;
-}
-
-.carousel-data {
-  text-align: center;
-}
-
-.container-carousel {
-  background: url("../images/carousel-background.png") no-repeat center fixed;
-}
-.carousel-control-prev:focus {
-  opacity: 0.5;
-}
-.carousel-control-next:focus {
-  opacity: 0.5;
-}
-
-/*---------------------- Footer------------------ */
-
-.footer-item {
-  padding-top: 50px;
-}
-
-.social i {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  font-size: 40px;
-  text-align: center;
-  color: #ffffff;
-  transition: all 0.35s ease-in-out;
-}
-
-.social li a i:hover {
-  color: rgba(0, 136, 122, 0.5);
-}
-
-.social-links {
-    padding-top: 15px;
-}
-
 .overlay {
   position: absolute;
   border-radius: 5%;
   height: 100%;
   width: 100%;
   opacity: 0;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
   transition: 0.5s ease;
   background-color: rgba(0, 136, 122, 1);
 }
@@ -337,14 +254,106 @@ height: 400px;
   height: 300px;
   border: none;
   width: auto;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .stage-icon {
   font-size: 40px;
 }
 
-/*--------------- About Programme Section ---------------*/
+
+/*------------------------------- Homepage Carousel------------------------------ */
+
+.container-carousel .card-deck {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 700px;
+}
+
+.container-carousel .card {
+  background-color: rgba(87, 202, 255, 1);
+  margin-top:0px;
+  padding-top: 0px;
+  border-radius: 0;
+  height: 600px;
+  min-width: 400px;
+  border: none;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.mobile-card {
+    background-color: rgba(87, 202, 255, 1);
+  padding-left: 30px;
+  padding-right:30px;
+  border-radius: 0;
+  height: 800px;
+  width: 350px;
+  border: none;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+
+/* --------------------------Adjustments of size of cards in the About Us carousel for mobile and tablet view------------------- */
+@media screen and (max-width: 768px) {
+    .mobile-card{
+        width: 320px;
+    }
+    .container-carousel .card-deck {
+        height: 850px;
+    }
+    .progress-type {
+        font-size: 8px;
+    }
+}
+
+.carousel-inner .card-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.carousel-inner .card-body {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.carousel-inner .card-text {
+  text-align: center;
+}
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon,
+.carousel-indicators {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.card-deck {
+  padding-bottom: 40px;
+}
+
+.carousel-data {
+  text-align: center;
+}
+
+.container-carousel {
+  background: url("../images/carousel-background.png") no-repeat center fixed;
+}
+.carousel-control-prev:focus {
+  opacity: 0.5;
+}
+.carousel-control-next:focus {
+  opacity: 0.5;
+}
+
+
+/*------------------------------ About Programme Section ------------------------------*/
 
 .timetable-heading {
   color: #fafafa;
@@ -399,10 +408,6 @@ height: 400px;
   padding-bottom: 1em;
 }
 
-.bg-color-work-history {
-  background-color: #9b59b6;
-}
-
 .section-column {
   padding-left: 30px;
   float: none;
@@ -412,7 +417,6 @@ height: 400px;
   justify-items: center;
 }
 
-.history-heading,
 .section-heading {
   font-weight: 300;
   margin-top: 25px;
@@ -464,32 +468,41 @@ height: 400px;
   background-color: #00887a;  
 }
 
+/*---------------------------------------- Contact----------------------------------------- */
+
 .form-control {
   margin: 5px;
 }
 
 .map {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     margin-bottom: 40px; 
 }
-/*----------------------------------- Gallery-------------------------------------- */
+/*---------------------------------------- Gallery----------------------------------------- */
 
 /* https://www.codecademy.com/forum_questions/542c44d4631fe94ba3000d4f */
 /* https://stackoverflow.com/questions/53466169/how-to-make-all-images-fit-same-size-inside-div-responsive */
+
 .thumbnail img {
   max-width: 100%;
   max-height: auto;
   position: relative;
   vertical-align: middle;
   left: 50%;
-  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+          transform: translate(-50%);
   height: 200px;
   width: 200px;
-  object-fit:cover;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -o-object-fit:cover;
+     object-fit:cover;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 
 .thumbnail {
   width: 20%;
@@ -501,21 +514,36 @@ height: 400px;
   
 }
 
-.btn-primary {
-    background-color: #ffffff !important;
-    color: #000000 !important;
-    border-color: #ffffff !important;
-}
-
-.btn-primary:hover {
-    background-color: rgba(0, 136, 122, 1) !important;
-    border-color: rgba(0, 136, 122, 1) !important;
-}
-
 .bg-teal {
     background-color: rgba(0, 136, 122, .5);
 }
 
 .bg-blue {
     background-color: rgba(87, 202, 255, 1);
+}
+
+/*------------------------------------------ Footer--------------------------------------------- */
+
+.footer-item {
+  padding-top: 50px;
+}
+
+.social i {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.social li a i:hover {
+  color: rgba(0, 136, 122, 0.5);
+}
+
+.social-links {
+    padding-top: 15px;
 }
