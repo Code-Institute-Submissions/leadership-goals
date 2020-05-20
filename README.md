@@ -23,11 +23,15 @@ This is a business to business website that provides potential clients with info
 The goal of the project is to create an informative business to business website that showcases the Leadership Goals Programme and encourages potential clients to get in contact with the company. The website acts as an attractive window for clients to gain a basic understanding of the programme and entice them to find out more information.
 
 ### 1.3 Scope 
-The website intends to anticipates what information clients would lime to know. With this in mind, introductory information is contained within the landing page and further details such as fees, gallery images and a contact form is available within a click.
+The website intends to anticipates what information that clients would like to know. With this in mind, introductory information is contained within the landing page and further details such as fees, gallery images and a contact form is available within a click.
 
-### 1.4 
-Mobile Wireframe PDF -https://drive.google.com/open?id=1YlXsu0rpGjufktC9YRjwdl1xh5CpGf3b
-Desktop Wireframe PDF - https://drive.google.com/open?id=1m7k7kfxnNo0fE5WSwvlbawXyvaR5dZ8X
+### 1.4 Structure
+Based on the Scope Plane and what information I believe clients requires to gain the information that they require, the website is designed to provide key information about the course on the homepage with attractive and responsive elements. Once the client is confident in the quality of information available on the homepage, they will be encouraged to find uot more information by navigating through the website or contacting the company.
+
+### 1.5 Skeleton
+A mobile first approach was taken to designing the website. The original wireframes were created using Balsamiq and can be found below:
+- Mobile Wireframe PDF - <a href="https://drive.google.com/open?id=1YlXsu0rpGjufktC9YRjwdl1xh5CpGf3b" rel="noopener" target="_blank">mobile version in PDF</a>.
+- Desktop Wireframe PDF - <a href="https://drive.google.com/open?id=1m7k7kfxnNo0fE5WSwvlbawXyvaR5dZ8X" rel="noopener" target="_blank">desktop version in PDF</a>.
 ## Features
 
 ### All Pages
