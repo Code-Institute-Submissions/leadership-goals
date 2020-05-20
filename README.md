@@ -6,7 +6,7 @@ python3 -m http.server
 
 # Milestone Project 1 - Leadership Goals
 
-This purpose of this project is to develop a website that promotes an educational leadership development programme. It is a business to business website as it targeted at companies that are interested in developing leaders in their organisation.
+The purpose of this project is to develop a website that promotes an educational leadership development programme. It is a business to business website as it targeted at companies that are interested in developing leaders in their organisation.
 The website will inform potential clients of the content of the programme, provide information about the company providing the course and give potential clients options for contacting Leadserhip Goals about the programme.
 
 ##Index
@@ -40,7 +40,7 @@ A mobile first approach was taken to designing the website. The original wirefra
 The wireframe mockups gave me a basic idea of how best to lay out each individual element that I wanted to incorporate into the project and how that would impact and enhance the user experience. As the project progressed the best placement of these elements became apparent.
 
 ### 1.6 Surface
-A blue and white colour scheme was initially decided upon to give a clean and crisp image to the site, I decided to add a teal colour, particularly for buttons and hover elemenets early on in the project. I chose the Quicksand font from Google Fonts as it fit in with the my design. A mixture of rounded borders and angled borders as well as shadowing appear on different elements throughout the site in order to add visual appeal
+A blue and white colour scheme was initially decided upon to give a clean and crisp image to the site, I decided to add a teal colour, particularly for buttons and hover elemenets early on in the project. I chose the Quicksand font from Google Fonts as it fit in with my intended design. A mixture of rounded borders and angled borders as well as shadowing appear on different elements throughout the site in order to add visual appeal
 
 ## 2. Features
 
@@ -139,29 +139,66 @@ I used the following languages for the project:
 - **[Autoprefixer CSS Online](https://autoprefixer.github.io/)**
     - The Autoprefixer ensured that vendor prefixes were added to my CSS.
 
+- **[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)**
+    - Google Chrome's DevTools were used to inspect elements of the website and adjust them to ensure that they were effective and responsive at different screen sizes. DevTools was also used to identify errors in my code and to test how changing certain elements would effect the overall look and feel of the website.
+
+### 4.2 Testing User Stories
+
+1. As a business owner or manager seeking information on the programme to develop a member of my team:
+     - I am given an introduction to the programme on the homepage followed by an outline of the course. 
+     - I have the options of finding out more about the programme, looking at pictures of the facility or contacting the company from the navbar which is visible at all times. 
+     - I can find out more about the people behind the company and where they are located on the homepage.
+     - I have access to information about course fees and payment options available to me.
 
 
+2. As a potential student of the course:
+    -  I can find out basic information about what the course offers, who runs the course and where it is located from the homepage.
+    - I can view pictures of the facility that I will be studying in in the gallery.
+    - I can contact the company to learn more about the course from the contact page as well as view further information about the location on a map.
 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+3. As a Human Resouce Manager researching a course for my employees:
+    - I can find out basic information about the course from the homepage.
+    - I can find out detailed information about the course content, the structure of the course and the fee schedule in the programme page.
+    - I can view images of the faciity where the course is delivered.
+    - I can easily contact the Leadership Goals company for more information through the contact page and get directions to their facility through the interactive map.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+4. As a guest of the pages who wishes to contact the company using the contact form:
+    - Click on the Learn More button on the navbar.
+    - Attempt to submit an empty form and an error message relating to required fields will appear.
+    - Attempt to submit the form without a valid email address and an error message will appear.
+    - Fill in all required fields including a valid email address and a confirmation modal will appear.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### 4.3 Device Testing
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+I utilised Google Chrome's DevTools to test the responsivness of the website at different screen sizes throughout the project. Once the project was approximately 70% complete, I tested it using a Huawei P9 Lite mobile device and an Acer tablet device. The website worked well on both devices.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+#### On screensizes of tablet size and below:
+- The Leadership Goals logo will only display the image and no text and the navbar will compress into a burger icon with a dropdown effect when pressed. 
+- The two card carousel will be replaced with a single card carousel on the homepage.
+- Cards and divs are responsive and will align with the mobile view. 
+- The galllery will align vertically on the gallery page.
+- The Leadership Goals logo in the footer disappears.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+### 4.4 Bugs
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+I encountered the following bugs while developing the Leadership Goals website:
 
-## Deployment
+### Homepage Carousel
+- The carousel on the homepage displayed two cards stacked on top of each other in mobile view. This did not present well so to rectify this, I developed a second carousel for mobile view only and hid the larger carousel at mobile view.
+- I used a mixture of Bootstrap [Cards](https://getbootstrap.com/docs/4.5/components/card/) and Bootstrap [Carousels](https://getbootstrap.com/docs/4.5/components/carousel/) for this component.
+
+### Class Attributes
+ - Two class attributes were attached to a div but were not contained within a class tag. This caused the W3C HTML Validator to flag them and they were removed.
+
+### General Responsiveness
+- I found some of the responsive elements challenging however with persistence and common sense I was able to adjust elements to be attractive and repsonsive at different screen sizes.
+
+
+## 5. Deployment
+
+The Leadership Goals projectt is hosted on GitHub and was developed using the GitPod IDE.
+
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
