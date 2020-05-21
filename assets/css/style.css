@@ -154,33 +154,13 @@ height: 400px;
   background-color: rgba(87, 202, 255, 1);
 }
 
-.mark-photo {
-  background: url(../images/businessman.jpg)no-repeat center center;
-  background-size: cover;
-  height: 200px;
-  width: 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: auto;
-}
-
-.aoife-photo {
-  background: url(../images/businesswoman.jpg)no-repeat center center;
-  background-size: cover;
-  height: 200px;
-  width: 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: auto;
-}
-
 .facility-photo {
   height: 150px;
   width: 200px;
   display: block;
   margin: auto;
+  padding-bottom: 20px;
+  position: relative;
 }
 
 /* The below CSS controls the zoom effect of the hero image upon loading each page. */
@@ -306,6 +286,7 @@ There are two carousels on this page, one for larger screen sizes and one for sm
 .carousel-inner .card-title {
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-top: 30px;
 }
 
 .carousel-inner .card-body {
