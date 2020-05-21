@@ -209,7 +209,7 @@ The Leadership Goals project is hosted on GitHub Pages and was developed using t
 ## 6. Credits
 
 ### 6.1 Content
-The design and style of my project was inspired by elements of the following Milestone 1 projects:
+The design and style of my project was initially inspired by elements of the following Milestone 1 projects:
 - [Startup Academy ](https://github.com/betahope/ms1-startup-academy)
 - [EL1TE](https://github.com/D1ang/EL1TE)
 
@@ -250,5 +250,5 @@ The following sources were used for code snippets or inspiration throughout the 
 ### 6.3 Acknowledgements
 
 - **Oluwafemi Medale** (My Mentor) - Thank you for your assistance with this project.
-- **The Code Institute Slack Community** - This was a great source of inspiration and assistance throughout the project.
+- **The Code Institute Slack Community** - The community was a great source of inspiration and assistance throughout the project.
 ***
