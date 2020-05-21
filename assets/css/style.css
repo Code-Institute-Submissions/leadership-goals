@@ -4,12 +4,13 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 /*---------------------------------------- Navbar --------------------------------------*/
+/* The below CSS adjusts the styling and sizing of different navbar elements */
 .navbar {
   padding-left: 20px;
   padding-right: 40px;
@@ -44,6 +45,7 @@ html {
 }
 
 /*----------------------------------- Buttons------------------------------- */
+/* The below CSS adjusts the colours and responsivness of buttons throughout the website */
 .btn-nav {
   background-color: rgba(87, 202, 255, 1)!important;
   border-color: rgba(87, 202, 255, 1)!important;
@@ -73,10 +75,20 @@ html {
 }
 
 /*---------------------------- Containers, Images and Backgrounds --------------------------*/
+/* The below CSS adjusts the styling and positioning of containers, images and backgrounds throughout the website. 
+The hero-container targets all hero image sections and then each individual hero image class targets individual pages.  */
 
 .logo {
     height: 100px;
     width: 100px;
+}
+
+.bg-teal {
+    background-color: rgba(0, 136, 122, .5);
+}
+
+.bg-blue {
+    background-color: rgba(87, 202, 255, 1);
 }
 
 .main-image {
@@ -132,9 +144,6 @@ height: 400px;
     margin-top: 30px;
   background-color: rgba(0, 136, 122, 0.5);
   max-width: 650px;
-}
-
-.jumbotron h1 {
   color: #ffffff;
   font-weight: bolder;
   margin-bottom: 10px;
@@ -174,6 +183,8 @@ height: 400px;
   margin: auto;
 }
 
+/* The below CSS controls the zoom effect of the hero image upon loading each page. */
+
 @-webkit-keyframes hero-zoom {
   from {
     -webkit-transform: scale(1);
@@ -197,6 +208,7 @@ height: 400px;
 }
 
 /*----------------------------------------- Homepage ---------------------------------*/
+/* The below CSS adjusts the sizing and stying of elements on the homepage, index.html.  */
 .page-header {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -254,6 +266,8 @@ height: 400px;
 
 
 /*------------------------------- Homepage Carousel------------------------------ */
+/* The below CSS adjusts the carousel in the About Us section of the homepage. 
+There are two carousels on this page, one for larger screen sizes and one for smaller screen sizes which are hidden accordingly. */
 
 .container-carousel .card-deck {
   padding-left: 40px;
@@ -289,19 +303,6 @@ height: 400px;
      text-overflow: ellipsis;
 }
 
-/* --------------------------Adjustments of size of cards in the About Us carousel for mobile and tablet view------------------- */
-@media screen and (max-width: 768px) {
-    .mobile-card{
-        width: 320px;
-    }
-    .container-carousel .card-deck {
-        height: 850px;
-    }
-    .progress-type {
-        font-size: 8px;
-    }
-}
-
 .carousel-inner .card-title {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -315,7 +316,6 @@ height: 400px;
 .carousel-inner .card-text {
   text-align: center;
 }
-
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon,
@@ -342,8 +342,23 @@ height: 400px;
   opacity: 0.5;
 }
 
+/* --------------------------Adjustments of size of cards in the About Us carousel for mobile and tablet view------------------- */
+@media screen and (max-width: 768px) {
+    .mobile-card{
+        width: 320px;
+    }
+    .container-carousel .card-deck {
+        height: 850px;
+    }
+    .progress-type {
+        font-size: 8px;
+    }
+}
 
-/*------------------------------ About Programme Section ------------------------------*/
+/*------------------------------ Programme Page ------------------------------*/
+/* The below CSS adjusts the styling of elements on the programme page. 
+The timeline classes refer to the course timetable on the left hand side of the page. 
+The progress classes refer to the progress bar in the course fees section. */
 
 .timetable-heading {
   color: #fafafa;
@@ -459,7 +474,7 @@ height: 400px;
 }
 
 /*---------------------------------------- Contact----------------------------------------- */
-
+/* The below CSS adjusts elements of the form on the Contact Us Page and the styling of the map element. */
 .form-control {
   margin: 5px;
 }
@@ -473,9 +488,9 @@ height: 400px;
     border: none;    
 }
 /*---------------------------------------- Gallery----------------------------------------- */
-
-/* https://www.codecademy.com/forum_questions/542c44d4631fe94ba3000d4f */
-/* https://stackoverflow.com/questions/53466169/how-to-make-all-images-fit-same-size-inside-div-responsive */
+/* The below CSS related to images contained within the gallery on the Gallery Page. Inspiration for this code was taken from the following websites and adapted to suit this website:
+https://www.codecademy.com/forum_questions/542c44d4631fe94ba3000d4f
+https://stackoverflow.com/questions/53466169/how-to-make-all-images-fit-same-size-inside-div-responsive */
 
 .thumbnail img {
   max-width: 100%;
@@ -507,18 +522,11 @@ height: 400px;
   
 }
 
-.bg-teal {
-    background-color: rgba(0, 136, 122, .5);
-}
-
-.bg-blue {
-    background-color: rgba(87, 202, 255, 1);
-}
-
 /*------------------------------------------ Footer--------------------------------------------- */
-
+/* The below CSS styles elements contained within the Footer of each page including the social media links. */
 .footer-item {
   padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .social i {
@@ -534,7 +542,7 @@ height: 400px;
 }
 
 .social li a i:hover {
-  color: rgba(0, 136, 122, 0.5);
+  color: rgba(0, 136, 122, 1.0);
 }
 
 .social-links {
