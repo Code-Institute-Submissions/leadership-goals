@@ -39,6 +39,9 @@ html {
 .navbar-nav {
   text-align: center;
 }
+.navbar-toggler:focus {
+    outline-color: transparent;
+}
 
 /*----------------------------------- Buttons------------------------------- */
 .btn-nav {
