@@ -503,6 +503,13 @@ https://stackoverflow.com/questions/53466169/how-to-make-all-images-fit-same-siz
   
 }
 
+/* The below code was inspired by the following post and adjusted for this project:
+https://stackoverflow.com/questions/38056679/how-to-change-cursor-on-hover-at-image */
+
+.gallery-img img:hover {
+    cursor: pointer;
+}
+
 /*------------------------------------------ Footer--------------------------------------------- */
 /* The below CSS styles elements contained within the Footer of each page including the social media links. */
 .footer-item {
