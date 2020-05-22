@@ -67,7 +67,7 @@ The about us section was originally due to have its own page but I decided that 
 ### 2.3 Programme Page
 The purpose of the Programme page is to give users a greater understanding of the Leadership Goals programme. Below the hero image, I have included a programme schedule on the left column inspired by The Code Institute's resume project. The other two columns include three rows that give an outline and further information on the three stages of the programme that are styled with the projexts colour scheme and include icons from Fontawesome.
 
-The Course Fees section of the Programme page gives a brief outline of the course's fee schedule using a Bootstrap Progress Bar that is seperated into three sections. Individual course fees are not provided here but users are encouraged to contact the company using a button in this section that links to the contact form.
+The Course Fees section of the Programme page gives a brief outline of the course's fee schedule using a Bootstrap Progress Bar that is seperated into three sections. Individual course fees are not provided here but users are encouraged to download a copy of the course information using a link provided at the bottom of this section.
 
 ### 2.4 Contact Page
 The Contact page provides users with a contact form below the hero images that encourages contact with the Leadership Goals Company to find our more information about the programme.
@@ -245,19 +245,18 @@ The following sources were used for code snippets or inspiration throughout the 
         - [Stackoverflow Captions for Bootstrap Carousels](https://stackoverflow.com/questions/47176632/bootstrap-carousel-caption)
 
 - **Images and Gallery**
-    - The thumbnail style images on the homepage carousel were inspired by Bootstrap 4's documentation on Thumbnail Images
-    - The gallery modal and carousel was inspired by the following from [CSS Tricks](https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/)
-    - The alignment and positioning of the image gallery was inspired by the following from [codeacademy](codecademy.com/forum_questions/542c44d4631fe94ba3000d4f)
-
+    - The thumbnail style images on the homepage carousel were inspired by Bootstrap 4's documentation on Thumbnail Images.
+    - The gallery modal and carousel was inspired by the following from [CSS Tricks](https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/).
+    - The alignment and positioning of the image gallery was inspired by the following from [codeacademy](codecademy.com/forum_questions/542c44d4631fe94ba3000d4f).
 - **Timeline and Progress Bar**
     - The timeline and progress bar on the Programme page were inspired by the Resume Project in the Code Institute's User Centric Frontend module. 
 
 ### 6.2 Media
 - **Map**
-    - The map for the Contact page was sourced and copied from [Maps.ie](https://www.maps.ie/)
+    - The map for the Contact page was sourced and copied from [Maps.ie](https://www.maps.ie/).
 - **Images**
-    - The Leadership Goals Lion Icon was sourced on [freepik.com](https://www.freepik.com/) and edited on [pixlr](https://pixlr.com/)
-    - All images for backgrounds, thumbnails and galleries were free to use and sourced from [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/)
+    - The Leadership Goals Lion Icon was sourced on [freepik.com](https://www.freepik.com/) and edited on [pixlr](https://pixlr.com/).
+    - All images for backgrounds, thumbnails and galleries were free to use and sourced from [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/).
 
 
 ### 6.3 Acknowledgements
