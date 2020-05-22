@@ -9,12 +9,12 @@ The website will inform potential clients of the content of the programme, provi
 
 ## Contents
 
-- <a href="ux">1. User Experience </a>
-- <a href="features">2. Features </a>
-- <a href="tech">3. Technologies Used </a>
-- <a href="test">4. Testing </a>
-- <a href="deploy">5. Deployment </a>
-- <a href="credit">6. Credits </a>
+- <a href="#ux">1. User Experience </a>
+- <a href="#features">2. Features </a>
+- <a href="#tech">3. Technologies Used </a>
+- <a href="#test">4. Testing </a>
+- <a href="#deploy">5. Deployment </a>
+- <a href="#credit">6. Credits </a>
 
 <span id="ux"></span>
 
