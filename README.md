@@ -7,6 +7,16 @@
 The purpose of this project is to develop a website that promotes a fictional educational leadership development programme, Leadership Goals. It is a business to business website targeted at companies that are interested in developing leaders in their organisation.
 The website will inform potential clients of the content of the programme, provide information about the company behind the course and give potential clients options for contacting Leadserhip Goals about the programme.
 
+## Contents
+
+- <a href="ux">1. User Experience </a>
+- <a href="features">2. Features </a>
+- <a href="tech">3. Technologies Used </a>
+- <a href="test">4. Testing </a>
+- <a href="deploy">5. Deployment </a>
+- <a href="credit">6. Credits </a>
+
+<span id="ux"></span>
 
 ## 1. User Experience
  
@@ -39,7 +49,7 @@ The wireframe mockups gave me a basic idea of how best to lay out each individua
 ### 1.6 Surface
 A blue and white colour scheme was initially decided upon to give a clean and crisp image to the site, I decided to add a teal colour, particularly for buttons and hover elemenets early on in the project. I chose the Quicksand font from Google Fonts as it fit in with my intended design. A mixture of rounded borders and angled borders as well as shadowing appear on different elements throughout the site in order to improve visual appeal.
 ***
-
+<span id="features"></span>
 ## 2. Features
 
 ### 2.1 All Pages
@@ -71,7 +81,7 @@ Below the hero image on the Gallery page are eight images that relate to the Lea
 - I would like to add swipe functionality to the carousels on mobile devices. This is outside the scope of the project at this time and requires a knowledge of JavaScript.
 - I would also like to add a pop up modal that thanks users for their submission when the form is filled out and all required fields have content.
 ***
-
+<span id="tech"></span>
 ## 3. Technologies Used
 
 ### 3.1 Languages 
@@ -120,7 +130,7 @@ I used the following languages for the project:
 - **[Google Drive](ttps://drive.google.com/)**
     - The wireframe PDF files are saved to a Google Drive account and are openly accessible.
 ***
-
+<span id="test"></span>
 ## 4. Testing
 
 ### 4.1 Testing Technologies
@@ -195,7 +205,7 @@ I encountered the following bugs while developing the Leadership Goals website:
 ### General Responsiveness
 - I found some of the responsive elements challenging however, with persistence I was able to adjust elements to be attractive and responsive at different screen sizes.
 ***
-
+<span id="deploy"></span>
 ## 5. Deployment
 
 The Leadership Goals project is hosted on GitHub Pages and was developed using the GitPod IDE using the following steps:
@@ -205,15 +215,15 @@ The Leadership Goals project is hosted on GitHub Pages and was developed using t
 3. All development on the project was carried out on the GitPod IDE.
 4. Changes to the project were committed and pushed regularly from GitPod to the Github repository.
 5. The Master Branch was the sole branch used to edit the project and the GitHub pages website was created from this branch. A link to the site is available **[here](https://d-mcalpin.github.io/leadership-goals/)**.
-6. To create a local copy of this repository, click "clone or download" on the Leadership Goals respository page, copy the provided URL. Open the Command Line Interface in your editor and type **git clone** and paste the URL copied earlier. Pressing enter creates a local clone of the Leadership Goals repository.
+6. To create a local copy of this repository, click "clone or download" on the Leadership Goals respository page and copy the provided URL. Open the Command Line Interface in your editor and type **git clone** and paste the URL copied earlier. Pressing enter creates a local clone of the Leadership Goals repository.
 ***
-
+<span id="credit"></span>
 ## 6. Credits
 
 ### 6.1 Content
 The design and style of my project was initially inspired by elements of the following Milestone 1 projects:
-- [Startup Academy ](https://github.com/betahope/ms1-startup-academy)
-- [EL1TE](https://github.com/D1ang/EL1TE)
+- [Betahope's Startup Academy ](https://github.com/betahope/ms1-startup-academy)
+- [D1Ang's EL1TE](https://github.com/D1ang/EL1TE)
 
 The following sources were used for code snippets or inspiration throughout the project:
 - **All Pages**
@@ -224,6 +234,7 @@ The following sources were used for code snippets or inspiration throughout the 
         - [Stackoverflow Overlays](https://stackoverflow.com/questions/55194719/how-can-i-make-hover-overlay-text-fixed-to-an-image)
         - [W3Schools Overlays](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
     - Box shadow effects were inspired by the following from [W3Schools](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp).
+    - The hyperlink code for phone numbers was discovered at [Stackoverflow Overlays](https://stackoverflow.com/questions/53270766/how-do-i-hyperlink-a-phone-number)
 
 - **Carousels**
     - The homepage carousel in the About Us section was designed using cards and carousels from Bootstrap 4's documentation and the following:

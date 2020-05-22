@@ -45,7 +45,7 @@ html {
 }
 
 /*----------------------------------- Buttons------------------------------- */
-/* The below CSS adjusts the colours and responsivness of buttons throughout the website */
+/* The below CSS adjusts the colours and responsivness of buttons throughout the website in order to maintain the website's style */
 .btn-nav {
   background-color: rgba(87, 202, 255, 1)!important;
   border-color: rgba(87, 202, 255, 1)!important;
@@ -535,4 +535,14 @@ https://stackoverflow.com/questions/38056679/how-to-change-cursor-on-hover-at-im
 
 .social-links {
     padding-top: 15px;
+}
+
+.footer-contact{
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-contact:hover{
+    text-decoration: none;
+    color:#000000;
 }
