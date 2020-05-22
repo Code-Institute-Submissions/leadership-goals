@@ -183,6 +183,7 @@ I used the following languages for the project:
 ### 4.3 Device Testing
 
 I utilised Google Chrome's DevTools to test the responsivness of the website at different screen sizes throughout the project. Once the project was approximately 70% complete, I tested it using a Huawei P9 Lite mobile device and an Acer tablet device. The website worked well on both devices.
+I tested the desktop functionality of the Leadership Goals website on Google Chrome and Microsoft Internet Explorer.
 
 #### On screen sizes of tablet size and below:
 - The Leadership Goals logo will only display the lion image and not the text. The navbar will compress into a burger icon with a dropdown effect when pressed. 
