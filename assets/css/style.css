@@ -454,6 +454,10 @@ The progress classes refer to the progress bar in the course fees section. */
   background-color: #00887a;  
 }
 
+.course-fees {
+    padding-bottom: 25px;
+}
+
 /*---------------------------------------- Contact----------------------------------------- */
 /* The below CSS adjusts elements of the form on the Contact Us Page and the styling of the map element. */
 .form-control {
